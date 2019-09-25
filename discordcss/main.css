@@ -1,13 +1,13 @@
 :root {
     --background-url: url(https://i.imgur.com/cPk3uJl.jpg);
-    --background-height: 1920px;
-    --background-thiccness: 1080px;
+    --background-thiccness: 1920px;
+    --background-height: 1080px;
     --background-opacity: rgba(0, 0, 0, 0.87);
 }
 
 body {
     background: var(--background-url) rgba(0, 0, 0, 0);
-    background-size: var(--background-height) var(--background-thiccness);
+    background-size: var(--background-thiccnes) var(--background-height);
 }
 
 /**Background opacity**/
