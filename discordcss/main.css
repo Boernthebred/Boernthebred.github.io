@@ -1,0 +1,108 @@
+:root {
+    --background-url: url(https://i.imgur.com/cPk3uJl.jpg);
+    --background-size: 1920px 1080px;
+    --background-opacity: rgba(0, 0, 0, 0.87);
+}
+
+body {
+    background: var(--background-url) rgba(0, 0, 0, 0);
+    background-size: var(--background-size);
+}
+
+
+/**Background opacity**/
+.app-19_DXt {
+    background: var(--background-opacity) !important;
+}
+
+/**General Transparency**/
+.theme-dark, 
+.theme-dark 
+.container-3gCOGc, 
+.da-applicationStore,
+.gradientOverlayRight-3vMuS8,
+.gradientOverlayLeft-3w159C, 
+.scroller-9moviB,
+.scroller-2zSykH,
+.scroller-1JpcIc,
+.theme-dark .root-1BQpZw {
+    background: rgba(0,0,0,0) !important;
+    --background-primary: rgba(0, 0, 0, 0) !important;
+    --background-secondary: rgba(0, 0, 0, 0) !important;
+    --background-tertiary: rgba(0, 0, 0, 0) !important;
+    --deprecated-panel-background: rgba(0, 0, 0, 0) !important;
+}
+/**Too much transparency aka user popout fix**/
+.root-SR8cQa {
+    background-color: rgba(47, 49, 54, 1)
+}
+.topSectionNormal-2-vo2m {
+    background-color: rgba(32, 34, 37, 1)
+}
+/**Nitro store transparency**/
+.itemBackground-1YUOje {
+    opacity: 0
+}
+
+/**Make the Nitro store arrows look nicer**/
+.arrow-15GutB {
+    background: rgba(0, 0, 0, 1) !important;
+}
+
+/**scrollbar**/
+::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+    border-color: transparent !important;
+}
+
+/**Title bar fix**/
+.typeWindows-1za-n7 {
+    margin-top: 0;
+    padding-top: 4px;
+    background: rgba(0, 0, 0, 0.87) !important;
+}
+
+/**Bigger emojis in sentences**/
+img.emoji:not(.jumboable) { 
+    height: 32px !important;
+    width: auto !important;
+}
+
+/**never resize reactions**/
+.da-reactionInner img.emoji {
+    height: 16px !important;
+}
+
+/**Removal of annoying buttons**/
+.buttonWrapper-1ZmCpA {
+    display: none
+}
+.translate-button-wrapper {
+    display: flex !important
+}
+
+/** larger emojipicker**/
+.emojiPicker-3m1S-j .scroller-3vODG7 {
+    height: 400px !important;
+}
+/**fix for missing background color on servers without icon**/
+.wrapper-1BJsBx, 
+.circleIconButton-jET_ig,
+.folder-21wGz3 {
+    background: rgba(44,47,51, 1) !important;
+}
+/**Fix for codeblocks**/
+.markup-2BOw-j code {
+    background-color: rgba(47,49,54, 1) !important;
+}
+/**Text shadow**/
+.nameDefaultText-24KCy5,.nameDefault-2DI02H,.nameDefaultVoice-3WUH7s,.nameMutedText-3Vj4bM,.usernameOnline-3jr_0Y,.usernameOffline-3VSVLk,.nameSelectedText-sp_EUw,.nameHoveredText-1uO31y,.channelName-3stJzi,.membersGroup-v9BXpm,.topic-2QX7LI,.search-l1Wz-Q,.name-3YKhmS,.markup-2BOw-j,.nameHovered-1gxhWH,.nameCollapsed-34uFWo,.nameHoveredCollapsed-2orEWB,.username-_4ZSMR,.detailsWrap-22pigg,.state-Tt0LO3 {
+    text-shadow: 1px 2px #000000;
+}
+/**Fix for connection problems window**/
+.container-16j22k {
+    Background-color: #2f3136 !important;
+}
