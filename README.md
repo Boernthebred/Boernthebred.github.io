@@ -1,1 +1,1 @@
-# Boernthebred.github.io
+# Smol website for smol projects
