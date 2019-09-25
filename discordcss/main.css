@@ -107,3 +107,13 @@ img.emoji:not(.jumboable) {
 .container-16j22k {
     Background-color: #2f3136 !important;
 }
+/*fixes for voice channel counter*/
+.users-i_3-kL {
+    background-color: #36393f
+}
+.total-3tKGEB {
+    background-color: #202225
+}
+.total-3tKGEB:after {
+    border-right-color: #202225
+}
