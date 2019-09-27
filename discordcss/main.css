@@ -102,10 +102,14 @@ img.emoji:not(.jumboable) {
 }
 
 /**fix for missing background color on servers without icon**/
-.wrapper-1BJsBx,
-.circleIconButton-jET_ig,
-.folder-21wGz3 {
+.da-expandedFolderBackground{
     background: rgba(44, 47, 51, 1) !important;
+}
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb{
+    background: rgba(0, 0, 0, 0) !important;
+}
+.childWrapper-anI2G9 {
+    background: rgba(54, 57, 63, 1)
 }
 
 /**Fix for codeblocks**/
