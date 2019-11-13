@@ -76,6 +76,12 @@ img.emoji:not(.jumboable) {
     width: auto !important;
 }
 
+/**Embed backgrounds**/
+.embedFull-2tM8-- {
+    background-color: rgba(47, 49, 54, 0.3);
+    border-left: 4px solid rgb(0, 132, 180,1)
+}
+
 /**never resize reactions**/
 .da-reactionInner img.emoji {
     height: 16px !important;
