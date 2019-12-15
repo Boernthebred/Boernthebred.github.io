@@ -15,7 +15,10 @@ body {
 .app-1q1i1E {
     background: var(--background-opacity) !important;
 }
-
+/**Invite background**/
+.wrapper-35wsBm {
+    background-color: rgba(47, 49, 54, 1)
+}
 /**General Transparency**/
 .theme-dark,
 .theme-dark .container-3gCOGc,
