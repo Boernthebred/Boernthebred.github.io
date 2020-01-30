@@ -21,6 +21,7 @@ body {
 }
 /**General Transparency**/
 .theme-dark,
+.theme-dark .container-1D34oG,
 .theme-dark .container-3gCOGc,
 .da-applicationStore,
 .theme-dark .perksModal-fSYqOq,
@@ -175,4 +176,11 @@ img.emoji:not(.jumboable) {
 
 .total-3tKGEB:after {
     border-right-color: #202225
+}
+/**Server discovery**/
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: transparent !important;
+}
+.bg-AYqtMd {
+    visibility: hidden;
 }
