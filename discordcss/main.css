@@ -38,16 +38,15 @@ body {
     --background-tertiary: rgba(0, 0, 0, 0) !important;
     --deprecated-panel-background: rgba(0, 0, 0, 0) !important;
 }
-/**Emote menu fixes**/
-.emojiPicker-3m1S-j .categories-1feg4n, .container-2XeR5Z {
-    background-color: rgba(32, 34, 37, 1)
-}
-.infoBar-U6oBFk {
-    background-color: rgba(32, 34, 37, 0.6)
-}
-.emojiPicker-3m1S-j, .emojiPicker-3m1S-j .stickyHeader-1SS0JU  {
+
+/** More emoiji menu fixes */
+.contentWrapper-SvZHNd, .da-contentWrapper {
     background-color: rgba(47, 49, 54, 1)
 }
+.wrapper-2Gsate {
+    background-color: rgba(32, 34, 37, 1)
+}
+
 /**Too much transparency aka user popout fix**/
 .root-SR8cQa, .quickswitcher-3JagVE {
     background-color: rgba(47, 49, 54, 1)
@@ -60,7 +59,6 @@ body {
     background: rgb(54, 57, 63);
     border: 1px solid rgb(32, 34, 37);
 }
-
 
 .topSectionNormal-2-vo2m {
     background-color: rgba(32, 34, 37, 1)
