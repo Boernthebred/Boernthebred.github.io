@@ -39,8 +39,8 @@ body {
     --deprecated-panel-background: rgba(0, 0, 0, 0) !important;
 }
 
-/** More emoiji menu fixes */
-.contentWrapper-SvZHNd, .da-contentWrapper {
+/** More emoji menu fixes */
+.contentWrapper-SvZHNd, .da-contentWrapper, .da-emojiPicker, .wrapper-1-Fsb8 {
     background-color: rgba(47, 49, 54, 1)
 }
 .wrapper-2Gsate {
@@ -106,6 +106,14 @@ img.emoji:not(.jumboable) {
 /**never resize reactions**/
 .da-reactionInner img.emoji {
     height: 16px !important;
+}
+
+/**never resize status**/
+.da-customStatus img.emoji, .da-activity img.emoji {
+    height: 16px !important;
+}
+.da-customStatusWithEmoji img.emoji {
+    height: 22px !important;
 }
 
 /**Removal of annoying buttons**/
@@ -185,6 +193,7 @@ img.emoji:not(.jumboable) {
 .total-3tKGEB:after {
     border-right-color: #202225
 }
+
 /**Server discovery**/
 .theme-dark .pageWrapper-1PgVDX {
     background-color: transparent !important;
