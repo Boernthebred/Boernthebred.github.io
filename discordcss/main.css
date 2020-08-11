@@ -19,6 +19,16 @@ body {
 .wrapper-35wsBm {
     background-color: rgba(47, 49, 54, 1)
 }
+/* Fixes for the tab plugin */
+.channelTabs-tabContainer {
+    background: rgba(0,0,0,0);
+}
+.channelTabs-tab {
+    background-color: rgba(47, 49, 54, 0.3)
+}
+.channelTabs-selected {
+    background-color: rgba(47, 49, 54, 0.6)
+}
 /**General Transparency**/
 .theme-dark,
 .theme-dark .container-1D34oG,
