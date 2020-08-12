@@ -24,7 +24,8 @@ body {
     background: rgba(0,0,0,0);
 }
 .channelTabs-tab {
-    background-color: rgba(47, 49, 54, 0.3)
+    background-color: rgba(47, 49, 54, 0.3);
+    margin-left: 11px;
 }
 .channelTabs-selected {
     background-color: rgba(47, 49, 54, 0.6)
