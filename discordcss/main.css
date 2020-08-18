@@ -90,7 +90,9 @@ body {
     background: transparent !important;
     border-color: transparent !important;
 }
-
+.theme-dark {
+    --scrollbar-auto-track: rgba(0, 0, 0, 0) !important;
+}
 ::-webkit-scrollbar-thumb {
     border-color: transparent !important;
 }
