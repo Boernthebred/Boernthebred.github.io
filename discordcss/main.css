@@ -19,16 +19,9 @@ body {
 .wrapper-35wsBm {
     background-color: rgba(47, 49, 54, 1)
 }
-/* Fixes for the tab plugin */
-.channelTabs-tabContainer {
-    background: rgba(0,0,0,0);
-}
-.channelTabs-tab {
-    background-color: rgba(47, 49, 54, 0.3);
-    margin-left: 11px;
-}
-.channelTabs-selected {
-    background-color: rgba(47, 49, 54, 0.6)
+/**Fix for when you click on emojis**/
+.emojiSection-3Fb9ix {
+    background-color: rgba(47, 49, 54, 1)
 }
 /**General Transparency**/
 .theme-dark,
@@ -49,15 +42,16 @@ body {
     --background-tertiary: rgba(0, 0, 0, 0) !important;
     --deprecated-panel-background: rgba(0, 0, 0, 0) !important;
 }
-
-/** More emoji menu fixes */
-.contentWrapper-SvZHNd, .da-contentWrapper, .da-emojiPicker, .wrapper-1-Fsb8 {
-    background-color: rgba(47, 49, 54, 1)
-}
-.wrapper-2Gsate {
+/**Emote menu fixes**/
+.emojiPicker-3m1S-j .categories-1feg4n, .container-2XeR5Z {
     background-color: rgba(32, 34, 37, 1)
 }
-
+.infoBar-U6oBFk {
+    background-color: rgba(32, 34, 37, 0.6)
+}
+.emojiPicker-3m1S-j, .emojiPicker-3m1S-j .stickyHeader-1SS0JU  {
+    background-color: rgba(47, 49, 54, 1)
+}
 /**Too much transparency aka user popout fix**/
 .root-SR8cQa, .quickswitcher-3JagVE {
     background-color: rgba(47, 49, 54, 1)
@@ -70,6 +64,7 @@ body {
     background: rgb(54, 57, 63);
     border: 1px solid rgb(32, 34, 37);
 }
+
 
 .topSectionNormal-2-vo2m {
     background-color: rgba(32, 34, 37, 1)
@@ -90,9 +85,7 @@ body {
     background: transparent !important;
     border-color: transparent !important;
 }
-.theme-dark {
-    --scrollbar-auto-track: rgba(0, 0, 0, 0) !important;
-}
+
 ::-webkit-scrollbar-thumb {
     border-color: transparent !important;
 }
@@ -119,14 +112,6 @@ img.emoji:not(.jumboable) {
 /**never resize reactions**/
 .da-reactionInner img.emoji {
     height: 16px !important;
-}
-
-/**never resize status**/
-.da-customStatus img.emoji, .da-activity img.emoji {
-    height: 16px !important;
-}
-.da-customStatusWithEmoji img.emoji {
-    height: 22px !important;
 }
 
 /**Removal of annoying buttons**/
@@ -206,7 +191,6 @@ img.emoji:not(.jumboable) {
 .total-3tKGEB:after {
     border-right-color: #202225
 }
-
 /**Server discovery**/
 .theme-dark .pageWrapper-1PgVDX {
     background-color: transparent !important;
