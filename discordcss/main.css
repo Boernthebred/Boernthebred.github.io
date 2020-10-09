@@ -98,7 +98,7 @@ body {
 }
 
 /**Bigger emojis in sentences**/
-img.emoji:not(.jumboable) {
+.emoji.jumboable {
     height: 32px !important;
     width: auto !important;
 }
