@@ -12,18 +12,28 @@ body {
 
 
 /**Background opacity**/
+
 .app-1q1i1E {
     background: var(--background-opacity) !important;
 }
+
+
 /**Invite background**/
+
 .wrapper-35wsBm {
     background-color: rgba(47, 49, 54, 1)
 }
+
+
 /**Fix for when you click on emojis**/
+
 .emojiSection-3Fb9ix {
     background-color: rgba(47, 49, 54, 1)
 }
+
+
 /**General Transparency**/
+
 .theme-dark,
 .theme-dark .container-1D34oG,
 .theme-dark .container-3gCOGc,
@@ -42,79 +52,99 @@ body {
     --background-tertiary: rgba(0, 0, 0, 0) !important;
     --deprecated-panel-background: rgba(0, 0, 0, 0) !important;
 }
+
+
 /**Emote menu fixes**/
-.emojiPicker-3m1S-j .categories-1feg4n, .container-2XeR5Z {
+
+.wrapper-2Gsate {
     background-color: rgba(32, 34, 37, 1)
 }
-.infoBar-U6oBFk {
-    background-color: rgba(32, 34, 37, 0.6)
+
+.inner-3ErfOT,
+.inner-2P4tQO {
+    background-color: rgba(32, 34, 37, 1)
 }
-.emojiPicker-3m1S-j, .emojiPicker-3m1S-j .stickyHeader-1SS0JU  {
+
+.contentWrapper-SvZHNd {
     background-color: rgba(47, 49, 54, 1)
 }
+
+
 /**Too much transparency aka user popout fix**/
-.root-SR8cQa, .quickswitcher-3JagVE {
+
+.root-SR8cQa,
+.quickswitcher-3JagVE {
     background-color: rgba(47, 49, 54, 1)
 }
+
+
 /**pinned messages fix**/
+
 .messagesPopoutWrap-1MQ1bW {
     background-color: rgba(47, 49, 54, 1)
-}    
+}
+
 .messageGroupWrapper-o-Zw7G {
     background: rgb(54, 57, 63);
     border: 1px solid rgb(32, 34, 37);
 }
 
 
-.topSectionNormal-2-vo2m {
-    background-color: rgba(32, 34, 37, 1)
-}
-
 /**Nitro store transparency**/
+
 .itemBackground-1YUOje {
     opacity: 0
 }
 
+
 /**Make the Nitro store arrows look nicer**/
+
 .arrow-15GutB {
     background: rgba(0, 0, 0, 1) !important;
 }
 
+
 /**scrollbar**/
-::-webkit-scrollbar-track-piece {
+
+::-webkit-scrollbar-track {
     background: transparent !important;
     border-color: transparent !important;
 }
 
-::-webkit-scrollbar-thumb {
-    border-color: transparent !important;
-}
 
 /**Title bar fix**/
+
 .typeWindows-1za-n7 {
     margin-top: 0;
     padding-top: 4px;
     background: rgba(0, 0, 0, 0.87) !important;
 }
 
+
 /**Bigger emojis in sentences**/
+
 .emoji.jumboable {
     height: 32px !important;
     width: auto !important;
 }
 
+
 /**Embed backgrounds**/
+
 .embedFull-2tM8-- {
     background-color: rgba(47, 49, 54, 0.3);
-    border-left: 4px solid rgb(0, 132, 180,1)
+    border-left: 4px solid rgb(0, 132, 180, 1)
 }
 
-/**never resize reactions**/
+
+/**never resize reactions
 .da-reactionInner img.emoji {
     height: 16px !important;
-}
+} **/
+
 
 /**Removal of annoying buttons**/
+
 .buttonWrapper-1ZmCpA {
     display: none
 }
@@ -123,34 +153,46 @@ body {
     display: flex !important
 }
 
-/**larger emojipicker**/
+
+/**larger emojipicker
 .emojiPicker-3m1S-j .scroller-3vODG7 {
     height: 400px !important;
-}
+}  
+**/
+
 
 /** slightly nicer emoji picker **/
+
 .emojiPicker-3m1S-j {
     border-radius: 5px 5px 5px 5px !important;
 }
 
+
 /**fix for missing background color on servers without icon**/
-.da-expandedFolderBackground{
+
+.da-expandedFolderBackground {
     background: rgba(44, 47, 51, 1) !important;
 }
-.expandedFolderBackground-2sPsd-.collapsed-1GMuSb{
+
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
     background: rgba(0, 0, 0, 0) !important;
 }
+
 .childWrapper-anI2G9,
 .circleIconButton-jET_ig {
     background: rgba(54, 57, 63, 1)
 }
 
+
 /**Fix for codeblocks**/
+
 .markup-2BOw-j code {
     background-color: rgba(47, 49, 54, 1) !important;
 }
 
+
 /**Text shadow**/
+
 .nameDefaultText-24KCy5,
 .nameDefault-2DI02H,
 .nameDefaultVoice-3WUH7s,
@@ -174,12 +216,16 @@ body {
     text-shadow: 1px 2px #000000;
 }
 
+
 /**Fix for connection problems window**/
+
 .container-16j22k {
     Background-color: #2f3136 !important;
 }
 
+
 /*fixes for voice channel counter*/
+
 .users-i_3-kL {
     background-color: #36393f
 }
@@ -191,10 +237,21 @@ body {
 .total-3tKGEB:after {
     border-right-color: #202225
 }
+
+
 /**Server discovery**/
+
 .theme-dark .pageWrapper-1PgVDX {
     background-color: transparent !important;
 }
+
 .bg-AYqtMd {
     visibility: hidden;
+}
+
+
+/**Custom status**/
+
+.popout-2sKjHu {
+    background-color: rgba(47, 49, 54, 1)
 }
