@@ -56,21 +56,39 @@ body {
 
 /**Emote menu fixes**/
 
-.wrapper-2Gsate {
+.wrapper-2Gsate, {
     background-color: rgba(32, 34, 37, 1)
 }
 
+.wrapper-1-Fsb8 {
+    background-color: rgba(47, 49, 54, 1)
+}
+
 .inner-3ErfOT,
+.wrapper-2Gsate,
 .inner-2P4tQO {
     background-color: rgba(32, 34, 37, 1)
 }
 
-.contentWrapper-SvZHNd {
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl {
     background-color: rgba(47, 49, 54, 1)
 }
 
+/**Inbox fix**/
+.header-2-Imhb {
+    background-color: rgba(32, 34, 37, 1)
+}
+.messageContainer-gbhlwo, .messages-3G3erD, .button-1-5Aqk {
+    background-color: rgba(54, 57, 63, 1)
+}
+.container-enaOkj, .channelHeader-3Gd2xq {
+    background-color: rgba(47, 49, 54, 1)
+}
 
-/**Too much transparency aka user popout fix**/
+/**User popout fix**/
+.topSectionNormal-2-vo2m {
+    background-color: rgba(32, 34, 37, 1)
+}
 
 .root-SR8cQa,
 .quickswitcher-3JagVE {
@@ -143,22 +161,15 @@ body {
 } **/
 
 
-/**Removal of annoying buttons**/
+/**Removal of gift button**/
 
-.buttonWrapper-1ZmCpA {
-    display: none
+.buttonWrapper-1ZmCpA, .button-3AYNKb {
+    display: none;
 }
 
 .translate-button-wrapper {
     display: flex !important
 }
-
-
-/**larger emojipicker
-.emojiPicker-3m1S-j .scroller-3vODG7 {
-    height: 400px !important;
-}  
-**/
 
 
 /** slightly nicer emoji picker **/
@@ -251,7 +262,17 @@ body {
 
 
 /**Custom status**/
-
-.popout-2sKjHu {
+.popout-VcNcHB, .lookFilled-22uAsw.select-2fjwPw {
+    outline: solid;
+    outline-width: 1px;
+    outline-color: rgba(32, 34, 37, 1);
+}
+.popout-VcNcHB, .lookFilled-22uAsw.select-2fjwPw, .popout-2sKjHu {
     background-color: rgba(47, 49, 54, 1)
+}
+.option-3KoAJB[aria-selected=true] {
+    background-color: rgba(32, 34, 37, 1);
+    outline: solid;
+    outline-width: 1px;
+    outline-color: rgba(32, 34, 37, 1);
 }
